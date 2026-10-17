@@ -1,0 +1,41 @@
+<!doctype html><html lang="th"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>มอเตอร์เวย์ M6 บางปะอิน–โคราช | สถานะทดลองเปิดใช้</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Thai:wght@400;600;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"><script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<style>body{font-family:'Noto Sans Thai',sans-serif}#map{height:380px}</style></head>
+<body class="bg-slate-50 text-slate-900">
+<header class="bg-gradient-to-br from-blue-900 to-blue-700 text-white"><div class="max-w-4xl mx-auto px-5 py-10">
+<p class="text-sm opacity-80">มอเตอร์เวย์หมายเลข 6</p><h1 class="text-3xl md:text-5xl font-extrabold mt-1">M6 บางปะอิน – นครราชสีมา</h1>
+<p class="mt-3 text-lg">ทดลองเปิดให้วิ่ง <b>ฟรี</b> ช่วง <b>บางปะอิน – ปากช่อง</b></p>
+<div class="mt-6 rounded-2xl bg-white text-slate-900 p-5 shadow-lg">
+<div class="flex items-center gap-2"><span class="w-3 h-3 rounded-full bg-green-500"></span><b>เปิดทดลองทุกสุดสัปดาห์</b></div>
+<p class="mt-2 text-xl font-bold">ศุกร์ 12:00 – อาทิตย์ 24:00</p><p class="text-sm text-slate-600">ตั้งแต่ 21 ส.ค. 2569 · ไม่เก็บค่าผ่านทาง</p>
+<p class="mt-3 text-sm bg-amber-100 text-amber-900 rounded-lg p-3">⚠️ โปรดตรวจสอบก่อนเดินทาง โทร <a class="font-bold underline" href="tel:1586">1586 กด 6</a></p></div></div></header>
+<main class="max-w-4xl mx-auto px-5 py-8 space-y-10">
+<section><h2 class="text-2xl font-bold mb-3">แผนที่ด่านที่เปิด</h2><div id="map" class="rounded-2xl shadow"></div>
+<p class="text-xs text-slate-500 mt-2">* ตำแหน่งหมุดเป็นค่าประมาณ</p></section>
+<section><h2 class="text-2xl font-bold mb-3">ด่านขึ้น–ลง</h2><div id="cards" class="grid sm:grid-cols-2 gap-4"></div>
+<p class="mt-3 text-sm text-red-700">❌ ด่านวังน้อย และด่านสระบุรี <b>ยังไม่เปิด</b></p></section>
+<section class="grid md:grid-cols-2 gap-4">
+<div class="bg-white rounded-2xl p-5 shadow"><h3 class="font-bold text-lg text-blue-800">➡️ ขาออกจากกรุงเทพฯ</h3><ol class="list-decimal ml-5 mt-2 space-y-1">
+<li>ขึ้นที่ด่านบางปะอิน</li><li>วิ่งตรงไปลงด่านปากช่อง (ถ.ธนะรัชต์)</li><li>หรือวิ่งต่อไปทางเลี่ยงเมืองโคราช</li></ol></div>
+<div class="bg-white rounded-2xl p-5 shadow"><h3 class="font-bold text-lg text-blue-800">⬅️ ขากลับเข้ากรุงเทพฯ</h3><ol class="list-decimal ml-5 mt-2 space-y-1">
+<li>ช่วงปากช่อง–มวกเหล็ก ขาเข้ายังก่อสร้าง</li><li>ใช้ ถ.ธนะรัชต์ → ถ.มิตรภาพ</li><li>ขึ้น M6 ที่ด่านมวกเหล็ก แล้ววิ่งถึงบางปะอิน</li></ol>
+<p class="text-sm text-slate-600 mt-2">ขึ้นที่ด่านปากช่อง ไปได้เฉพาะทางสีคิ้ว/โคราช</p></div></section>
+<section class="bg-blue-50 rounded-2xl p-5"><b>ℹ️ เพิ่มเติม:</b> 6–11 ต.ค. 2569 เปิดช่วงบางปะอิน–หินกอง ทั้งสองทิศทาง เพื่อช่วยบรรเทาน้ำท่วม</section>
+<section><h2 class="text-2xl font-bold mb-3">คำถามที่พบบ่อย</h2><div class="space-y-2">
+<details class="bg-white rounded-xl p-4 shadow"><summary class="font-semibold">เสียค่าผ่านทางไหม?</summary><p class="mt-2">ช่วงทดลองไม่เก็บค่าผ่านทาง</p></details>
+<details class="bg-white rounded-xl p-4 shadow"><summary class="font-semibold">วันธรรมดาวิ่งได้ไหม?</summary><p class="mt-2">ไม่ได้ เปิดเฉพาะ ศุกร์ 12:00 – อาทิตย์ 24:00 (เว้นมีประกาศพิเศษ)</p></details>
+<details class="bg-white rounded-xl p-4 shadow"><summary class="font-semibold">ขากลับขึ้นที่ปากช่องได้ไหม?</summary><p class="mt-2">ไม่ได้ ต้องไปขึ้นที่ด่านมวกเหล็ก</p></details>
+<details class="bg-white rounded-xl p-4 shadow"><summary class="font-semibold">สอบถามที่ไหน?</summary><p class="mt-2">สายด่วนกรมทางหลวง 1586 กด 6</p></details></div></section></main>
+<footer class="bg-slate-900 text-slate-300 text-sm"><div class="max-w-4xl mx-auto px-5 py-6">แหล่งข้อมูล: <a class="underline" href="https://www.motorway.go.th/">กองทางหลวงพิเศษระหว่างเมือง</a> · <a class="underline" href="https://www.amarintv.com/news/social/559610">Amarin TV</a><br>อัปเดตล่าสุด 17 ต.ค. 2569 · ข้อมูลอาจเปลี่ยนแปลง</div></footer>
+<script>
+const P=[["ด่านบางปะอิน",14.2290,100.6150,"จุดเริ่มต้นฝั่งกรุงเทพฯ ขึ้น–ลงได้"],["ด่านหินกอง",14.4750,100.9100,"สระบุรี ขึ้น–ลงได้"],["ด่านแก่งคอย",14.5900,101.0300,"ขึ้น–ลงได้"],["ด่านมวกเหล็ก",14.6550,101.2000,"จุดขึ้นขากลับเข้ากรุงเทพฯ"],["ด่านปากช่อง",14.6900,101.4300,"ถ.ธนะรัชต์ ขาออกลงได้"]];
+const m=L.map('map',{scrollWheelZoom:false}).setView([14.47,101.0],9);
+L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{attribution:'© OpenStreetMap'}).addTo(m);
+L.polyline(P.map(p=>[p[1],p[2]]),{color:'#1d4ed8',weight:5,dashArray:'6 6'}).addTo(m);
+P.forEach((p,i)=>{const u='https://www.google.com/maps/search/?api=1&query='+encodeURIComponent(p[0]+' มอเตอร์เวย์ M6');
+L.marker([p[1],p[2]]).addTo(m).bindPopup(`<b>${p[0]}</b><br>${p[3]}<br><a href="${u}" target="_blank">Google Maps</a>`);
+cards.insertAdjacentHTML('beforeend',`<div class="bg-white rounded-2xl p-5 shadow"><div class="text-xs text-green-700 font-semibold">● เปิด</div><h3 class="font-bold text-lg">${i+1}. ${p[0]}</h3><p class="text-slate-600">${p[3]}</p><a class="inline-block mt-3 bg-blue-700 text-white rounded-lg px-4 py-2" target="_blank" href="${u}">เปิดใน Google Maps</a></div>`)});
+</script></body></html>
